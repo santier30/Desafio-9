@@ -5,7 +5,7 @@ class Libro {
     this.autor = autor;
   }
   mesage(){
-    return `${this.titulo}, de ${this.autor}`
+    return `${this.titulo}, de ${this.autor.toUpperCase()}`
   }
   mostrarDatosEnConsola() {
     console.log(this.mesage());
